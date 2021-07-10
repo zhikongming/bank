@@ -1,0 +1,6 @@
+CREATE TABLE `bank_code` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `code` VARCHAR(30) NOT NULL DEFAULT '' COMMENT 'bank code',
+    `name` VARCHAR(30) NOT NULL DEFAULT '' COMMENT 'bank name',
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='bank code';
